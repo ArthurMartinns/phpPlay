@@ -1,0 +1,338 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid-corpo table {
+    width: 70vw;
+    height: 10vh;
+    font-family: "Montserrat", sans-serif;
+    color: #9b9b9b;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #1E1E1E;
+}
+
+.grid-corpo th, .grid-corpo td {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.grid-corpo th {
+    background: linear-gradient(#EC9A1E, #FF7A00);  
+    color: #ccc;
+}
+
+.pagination-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-links .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 0.25rem;
+}
+
+.pagination-links .pagination li {
+    display: inline;
+}
+
+.pagination-links .pagination li a,
+.pagination-links .pagination li span {
+    color: #636b6f;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    border-radius: 0.25rem;
+}
+
+.pagination-links .pagination li a:hover {
+    background-color: #ddd;
+}
+
+.pagination-links .pagination li.active span {
+    background-color: #636b6f;
+    color: white;
+    border: 1px solid #636b6f;
+}
+
+.pagination-links .pagination li.disabled span {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.hidden{
+    display: none;
+}
+
+/*________________________________________________________PARTE DE CADATRO______________________________________________________________*/
+
+
+body{
+    background-color: #2C2C2C;
+
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    background: linear-gradient(90deg in oklab, #A9B967, #66671F);
+    width: 70%;
+    height: 70vh;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+}
+
+#leftt{
+    width: 40%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 13%;
+    padding-top: 7%;
+}
+
+#leftt h1{
+    color: #FAFFDD;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#leftt h2{
+    color: #FAFFDD;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 15%;
+}
+
+#rigthh{
+    padding-top: 5%;
+    width: 70%;
+    height: 100%;
+    padding-right: 7%;
+}
+
+#linha1{
+    display: flex;
+}
+
+.juntooo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    margin-bottom: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+.juntooo input{
+    height: 4vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-top: 1vh;
+
+}
+.juntosss{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 96%;
+    margin-bottom: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.juntosss input{
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin-top: 1vh;
+
+
+}
+
+.juntosss label{
+    margin-top: 2vh;
+
+}
+
+.primeiros{
+    width: 100%;
+}
+
+#rigthh button{
+    width: 22vw;
+    height: 6vh;
+    background-color: #B6BD90;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+    bottom: -2vh;
+    right: 18vw;
+
+}
+
+#rigthh button a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+main img{
+    position: absolute;
+    left: -1vh;
+    height: 69%;
+    width: 28%;
+    top: 31%;
+}
+
+#oi {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*_________________________________________________TELA DA TABELA________________________________________________________*/
+
+
+
+#mainn{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: linear-gradient(#830207, #3D0406);   
+    width: 70vw;
+    height: 50vh;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+header h2{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 4vw;
+    margin-top: 3vh;
+}
+
+header p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 4px;
+    line-height: 25px;
+    margin-top: 1vh;
+
+
+}
+
+span{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+#left{
+    width: 70%;
+    height: 35vh;
+    padding-left: 5%;
+    padding-top: 6%;
+
+} 
+
+#up{
+    width: 70vw;
+    height: 13vh;
+    background: linear-gradient(#EC9A1E, #FF7A00);   
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    vertical-align: middle;
+}
+
+#up h1{
+    width: 15vw;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#up h2{
+    width: 2vw;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+#left button{
+    width: 14vw;
+    height: 4vh;
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#left button a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btns {
+    text-decoration: none;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+/*------------------------------------------------------------edit--------------------------------------------------------------------------------------------------------------*/
+
+.edit {
+    background: linear-gradient(90deg in oklab, #A9B967, #66671F);
+    width: 70%;
+    height: 70vh;
+    border-radius: 30px;
+}
